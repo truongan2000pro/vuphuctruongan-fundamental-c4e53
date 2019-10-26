@@ -1,0 +1,3 @@
+nested array là array lồng trong array trong nested array các phần tử trong một array là các mảng
+array có thể bất kỳ các giá trị phần tử nào nhưng trong 1 array không thể lưu trữ 2 kiểu dữ liệu khác nhau và 
+integers và strings không thể cùng lưu trữ trong cùng 1 array
