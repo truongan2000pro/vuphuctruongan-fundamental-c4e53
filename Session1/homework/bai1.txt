@@ -1,0 +1,6 @@
+dùng typeof để check variable's type: typeof(variable's name)
+variable's name bị invalid name error khi người dùng nhập tên biến không đúng cú pháp ví dụ như:
+1.tên biến là keywords của javaSC ví dụ như break
+2.tên biến không thể để số đứng đầu ví dụ 1abc là không hợp lệ
+3.tên biến sẽ là không hợp lệ nếu để các dấu đặc biệt đứng đầu ngoại trừ 2 dấu $ và dấu _
+4.javasc phân biệt tên biến chữ hoa và tên biến chữ thường.
