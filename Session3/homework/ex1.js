@@ -1,10 +1,6 @@
-let i=0
-let t=0
 let shop=["áo","mũ"]
 for(let l=0;l<2;){
     let s= prompt("Nhập vào chức năng bạn muốn: C/R/U/D ").toLowerCase()
-    if(s!="c" && s!="r" && s!="u" && s!="d"){
-        alert("bạn nhập sai phím chức năng rồi nhập lại đi!")}
     if(s == "c"){
     let them=prompt("Nhập món bạn thích")
     shop.push(them)
@@ -73,6 +69,8 @@ else if(s=="u"){
 }
 }
 }
+else {
+    alert("bạn nhập sai phím chức năng rồi nhập lại đi!")}
 }
 
 
