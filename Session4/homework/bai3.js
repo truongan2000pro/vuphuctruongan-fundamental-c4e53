@@ -931,12 +931,15 @@ var jobSearch =
         ]
     }
     var object1= jobSearch["hits"]
-
-    for(let i=0;i<object1.length;i++){
-        var{jobRequirement,jobTitle,jobSalary,benefits,skills,locations} = object1[i]
-        console.log(jobRequirement,jobTitle,jobSalary,benefits,skills,locations)
-        
-    }
+for(let i=0;i<object1.length;i++){
+    var{jobRequirement,jobTitle,jobSalary,benefits,skills,locations} = object1[i]
+        console.log(`${jobTitle}\n${jobRequirement}\nKĩ năng yêu cầu: ${skills}\nlương: ${jobSalary}\nĐịa chỉ: ${locations}`)
+        console.log("các benefits là:")
+        var benefit =    object1[i].benefits
+        benefit.forEach((v,i)=>{
+            console.log(`${i+1} ${(Object.values(v))}` )
+        })
+}
 // // 3.1 data type of the outermost layer is object
 // 3.2 hits property is array
 
