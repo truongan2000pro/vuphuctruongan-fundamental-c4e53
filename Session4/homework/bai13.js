@@ -14,7 +14,7 @@ let code3={
 let process=[code1,code2,code3]
 console.log("Đây là tiến trình khóa học của bạn:")
 for(let i=0;i< process.length;i++){
-    console.log(`${i+1}.${process[i].name} \nComplete: ${process[i].complete}`) 
+    console.log(`${i+1}.[] ${process[i].name}`) 
 }
 let z=0
 while(z<2){
@@ -26,8 +26,13 @@ else if(functions == "new"){
 let userInput =prompt("Nhập vào task mới đi: ")
 process.push(userInput={name:userInput,complete:false})
 for(let i=0;i< process.length;i++){
-    console.log(`${i+1}.${process[i].name} \nComplete: ${process[i].complete}`) 
-        }
+    if(process[i].complete == true){
+        console.log(`${i+1}.[x] ${process[i].name}`) 
+    }
+    else{
+        console.log(`${i+1}.[] ${process[i].name}`) 
+    }
+    }
     }
 else if(functions=="update"){
     let userPosition = parseInt(prompt("Nhập vào vị trí đi :"))
@@ -35,7 +40,12 @@ else if(functions=="update"){
             let userNewtile= prompt("Nhập vào tile mới đi: ")
             process[userPosition-1].name = userNewtile
             for(let i=0;i< process.length;i++){
-                console.log(`${i+1}.${process[i].name} \nComplete: ${process[i].complete}`) 
+                if(process[i].complete == true){
+                    console.log(`${i+1}.[x] ${process[i].name}`) 
+                }
+                else{
+                    console.log(`${i+1}.[] ${process[i].name}`) 
+                }
                 }
         
         }
@@ -47,10 +57,14 @@ else if(functions == "complete"){
     let userPositionIncomplete = parseInt(prompt("Nhập vào vị trí đi: "))
     if (userPositionIncomplete -1 < process.length && userPositionIncomplete-1>=0){
         process[userPositionIncomplete-1].complete =true
-            for(let i=0;i< process.length;i++){
-                console.log(`${i+1}.${process[i].name} \nComplete: ${process[i].complete}`) 
-        
-    }
+        for(let i=0;i< process.length;i++){
+            if(process[i].complete == true){
+                console.log(`${i+1}.[x] ${process[i].name}`) 
+            }
+            else{
+                console.log(`${i+1}.[] ${process[i].name}`) 
+            }
+            }
     }
         else{
         alert("Nhập sai rồi!!!!!!!!!!!!!")
@@ -61,8 +75,13 @@ else if(functions =="delete"){
    if(userDelete-1 < process.length && userDelete-1 >=0){
         process.splice(userDelete-1,1)
         for(let i=0;i< process.length;i++){
-            console.log(`${i+1}.${process[i].name} \nComplete: ${process[i].complete}`) 
-         }
+            if(process[i].complete == true){
+            console.log(`${i+1}.[x] ${process[i].name}`) 
+                }
+            else{
+                console.log(`${i+1}.[] ${process[i].name}`) 
+            }
+            }
      }
    else{
        alert("sai vị trí rồi má ơi má à!!!!!!!!!!!")
