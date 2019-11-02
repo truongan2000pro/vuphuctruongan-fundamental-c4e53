@@ -35,7 +35,7 @@ if(userInput ==="e"){
 }  
 for(let i=0;i<array.length;i++){
         var {name,brand,price,color,category} = array[i]
-        if(userInput === category){
+        if(userInput === array[i].category){
         for(let x in dunno){
             console.log(`${dunno[x]}: ${array[i][dunno[x]]}`)
             }
