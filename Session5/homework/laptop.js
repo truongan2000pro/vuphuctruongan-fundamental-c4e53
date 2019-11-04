@@ -46,7 +46,6 @@ let cash=0
 let stringCash=""
 if(brand.includes(userInput)){
         for(let z=0;z<inventoryByBrand[userInput].length;z++){
-            // console.log(inventoryByBrand[userInput].Name)
             nameOfprocduct += `${inventoryByBrand[userInput][z].Name}`
             cash+= inventoryByBrand[userInput][z].Price*inventoryByBrand[userInput][z].Quantity*1000
         }
