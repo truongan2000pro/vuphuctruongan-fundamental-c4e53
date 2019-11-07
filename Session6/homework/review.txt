@@ -1,0 +1,25 @@
+1.dùng function vì function cho phép bạn chia nhỏ code ra thành nhiều phần nhỏ có thể xử lí
+được khi bạn dùng function đoạn code của bạn dễ dàng để xử lí hơn,dễ dàng cho việc kiểm 
+tra hơn và có thể tái sử dụng 
+2.có 2 cách define a function là 
+function name (parameter)
+ {
+       statements 
+ }
+cách 2 :
+const name = (parameter) => {
+	statements
+}
+3.để dùng 1 function bạn phải gọi function's name trong phạm vi mà bạn muốn gọi nó
+4.return làm cho function exit và trả lại giá trị cho người dùng.câu lệnh return được dùng
+khi mà một function sẵn sàng trả về 1 giá trị nào đó cho người dùng
+5.chúng ta phải dùng return trong mỗi function vì JS engine phải được lệnh rằng nó 
+đã hoàn thành xong tác vụ bằng cách sử dụng funtion returning something.Đó là tại sao
+thay vì "finished" một funtion được gọi là "have returned". Một function mà thiếu return
+statement sẽ trả về undefined
+6.function parameters được nhập vào trong 2 dấu () ở phần function definition
+function arguments là giá trị nhận bởi function khi nó đc gọi
+trong function argments(parameters) được coi là local variables
+7.ta dùng import { tên function } from 'tên file'; // or './tên file'
+
+

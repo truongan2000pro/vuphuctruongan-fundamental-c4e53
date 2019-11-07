@@ -38,7 +38,7 @@ for(i=0;i<inventory.length;i++){
 for(i=0;i<inventory.length;i++){
     let items = inventory[i]
     inventoryByBrand[brand[i]].push(items)
-}
+    }
 console.log(inventoryByBrand)
 let userInput = prompt("Nhập vào tên hãng").toLowerCase()
 let nameOfprocduct=''
