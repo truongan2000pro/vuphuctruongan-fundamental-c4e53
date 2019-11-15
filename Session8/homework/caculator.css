@@ -1,0 +1,42 @@
+span {
+  border-width: 10rem;
+  border: solid;
+  overflow: auto;
+}
+html {
+  text-align: center;
+  padding: 15rem;
+}
+div {
+  color: yellow;
+  margin: 0 auto;
+  width: 28.5rem;
+  height: 50px;
+  border: red solid;
+  font-size: 30px;
+  display: block;
+  padding: 2px;
+  background-color: pink;
+  overflow: auto;
+}
+button {
+  /* width: ; */
+  border-radius: 10%;
+  height: 4rem;
+  width: 5.5rem;
+  color: red;
+  border: solid black;
+  /* margin: ; */
+}
+#ac {
+  width: 8rem;
+}
+#del {
+  width: 9rem;
+}
+#bang {
+  width: 11rem;
+}
+body {
+  border: red solid;
+}

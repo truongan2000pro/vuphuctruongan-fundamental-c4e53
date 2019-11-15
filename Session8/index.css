@@ -1,0 +1,54 @@
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  color: aqua;
+}
+#an {
+  text-decoration: underline;
+}
+.italic {
+  font-style: italic;
+}
+.white {
+  color: whitesmoke;
+  background: black;
+}
+.corner {
+  border-radius: 100%;
+}
+[href] {
+  font-size: 2rem;
+}
+[type="password"] {
+  border: solid gold;
+}
+nav a {
+  text-decoration: line-through;
+}
+nav > a {
+  font-weight: 800;
+}
+button:active {
+  border: solid red;
+}
+input:focus {
+  border: solid pink;
+}
+img {
+  width: 40%;
+}
+img:hover {
+  border: solid red 2px;
+}
+#banner {
+  height: 40rem;
+  background-image: url(https://images.unsplash.com/photo-1564960073678-8a01a8fd35da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.rect {
+  width: 500px;
+  height: 200px;
+  background-color: yellow;
+}
