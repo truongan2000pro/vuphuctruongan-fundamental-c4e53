@@ -40,3 +40,6 @@ button {
 body {
   border: red solid;
 }
+button:hover {
+  border: red solid;
+}
