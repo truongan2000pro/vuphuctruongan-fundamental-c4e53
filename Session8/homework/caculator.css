@@ -5,7 +5,7 @@ span {
 }
 html {
   text-align: center;
-  padding: 15rem;
+  margin: 215px;
 }
 div {
   color: yellow;
@@ -39,6 +39,8 @@ button {
 }
 body {
   border: red solid;
+  width: 465px;
+  margin: auto;
 }
 button:hover {
   border: red solid;
